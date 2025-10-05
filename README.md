@@ -34,6 +34,8 @@ However, it is not recommended to add /opt/devkitpro/pacman/bin to your system P
 ## After
 
 Set environment variables in bashrc:
-```export DEVKITPRO=/opt/devkitpro
+```
+export DEVKITPRO=/opt/devkitpro
 export DEVKITARM=/opt/devkitpro/devkitARM
-export DEVKITPPC=/opt/devkitpro/devkitPPC```
+export DEVKITPPC=/opt/devkitpro/devkitPPC
+```
