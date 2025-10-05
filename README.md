@@ -43,10 +43,25 @@ Instead of using the `pacman` command directly, you should use the full path: `/
 For convenience, you can create an alias to use pacman as `dkp-pacman`: `alias dkp-pacman="/opt/devkitpro/pacman/bin/pacman"`.
 However, it is not recommended to add /opt/devkitpro/pacman/bin to your system PATH as this may cause issues.
 
+Finally, you can install the development package you need:
 
-## After
+`sudo /opt/devkitpro/pacman/bin/pacman -S <group name>`
 
-Set environment variables in bashrc:
+| groups       |
+| ------------ |
+| gp32-dev     | 
+| gp2x-dev     | 
+| gba-dev      |
+| nds-dev      |
+| 3ds-dev      |
+| gamecube-dev |
+| wii-dev      |
+| wiiu-dev     |
+| switch-dev   |
+
+## Bonus
+
+For simplicity, you can set these environment variables in bashrc:
 ```
 export DEVKITPRO=/opt/devkitpro
 export DEVKITARM=/opt/devkitpro/devkitARM
