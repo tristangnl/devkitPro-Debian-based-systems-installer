@@ -19,6 +19,8 @@ The documentation to install devkitPro pacman on Linux: https://devkitpro.org/wi
 
 The official devkitpro-pub.gpg key file: https://apt.devkitpro.org/devkitpro-pub.gpg
 
+The official github: https://github.com/devkitPro
+
 ## Usages
 > [!NOTE]
 > please read the code before using it for your own peace of mind.
