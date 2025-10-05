@@ -11,6 +11,8 @@ The official script provided by devkitPro: https://apt.devkitpro.org/install-dev
 
 The documentation to install devkitPro pacman on Linux: https://devkitpro.org/wiki/devkitPro_pacman
 
+The official devkitpro-pub.gpg key file: https://apt.devkitpro.org/devkitpro-pub.gpg
+
 ## usages
 
 ## How to use pacman
