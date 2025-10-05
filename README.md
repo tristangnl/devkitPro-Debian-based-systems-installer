@@ -1,9 +1,12 @@
 # devkitPro-Debian-based-systems-installer
-The installer script for devkitPro on Debian-based Linux systems because the official one returns error 403 forbidden.
+The installer script for devkitPro on Debian-based Linux systems because the official one returns error 403 forbidden. Compatible with: Ubuntu - Linux Mint - Pop!_OS - Kali Linux - Raspberry Pi OS ...
 
 This script installs (dkp-)pacman from devkitPro to manage and install devkitPro libraries.
 
-### Please read the instructions below to properly use the script and pacman.
+
+
+> [!IMPORTANT]
+> #### Please read the instructions below to properly use the script and pacman.
 
 
 ### useful links 
@@ -15,4 +18,13 @@ The official devkitpro-pub.gpg key file: https://apt.devkitpro.org/devkitpro-pub
 
 ## usages
 
+See the official documentation here: https://devkitpro.org/wiki/devkitPro_pacman#Using_Pacman
+
+Instead of using the `pacman` command directly, you should use the full path: `/opt/devkitpro/pacman/bin/pacman`.
+
+For convenience, you can create an alias to use pacman as `dkp-pacman`: `alias dkp-pacman="/opt/devkitpro/pacman/bin/pacman"`.
+However, it is not recommended to add /opt/devkitpro/pacman/bin to your system PATH as this may cause issues.
+
+
 ## How to use pacman
+
