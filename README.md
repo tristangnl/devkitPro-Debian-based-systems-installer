@@ -23,6 +23,9 @@ The official devkitpro-pub.gpg key file: https://apt.devkitpro.org/devkitpro-pub
 > [!NOTE]
 > please read the code before using it for your own peace of mind.
 
+
+First update your system: `sudo apt update && sudo apt upgrade`.
+
 Clone the repository `git clone https://github.com/tristangnl/devkitPro-Debian-based-systems-installer.git` or download the .zip file. 
 
 Then, navigate to the repository directory via the terminal and run `./installdkp.sh` to execute it.
