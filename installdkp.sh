@@ -10,9 +10,9 @@ apt-get install apt-transport-https
 # Store devkitPro gpg key locally if we don't have it already
 if ! [ -f /usr/local/share/keyring/devkitpro-pub.gpg ]; then
   mkdir -p /usr/local/share/keyring/
+  # Modified this line from the official script because wget returned a 403 Forbidden error when trying to access the server
   cp devkitpro-pub.gpg /usr/local/share/keyring/devkitpro-pub.gpg || exit 1
 fi
-
 
 # Add the devkitPro apt repository if we don't have it set up already
 if ! [ -f /etc/apt/sources.list.d/devkitpro.list ]; then
