@@ -1,5 +1,8 @@
 # devkitPro-Debian-based-systems-installer
-The installer script for devkitPro on Debian-based Linux systems because the official one returns error 403 forbidden. Compatible with: Ubuntu - Linux Mint - Pop!_OS - Kali Linux - Raspberry Pi OS ...
+The installer script for devkitPro on Debian-based Linux systems because the official one returns error 403 forbidden. 
+I replaced the wget command with the actual public key stored locally in the repository.
+
+Compatible with: Debian - Ubuntu - Linux Mint - Pop!_OS - Kali Linux - Raspberry Pi OS ...
 
 This script installs (dkp-)pacman from devkitPro to manage and install devkitPro libraries.
 
