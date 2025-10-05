@@ -10,7 +10,7 @@ apt-get install apt-transport-https
 # Store devkitPro gpg key locally if we don't have it already
 if ! [ -f /usr/local/share/keyring/devkitpro-pub.gpg ]; then
   mkdir -p /usr/local/share/keyring/
-  cp devkitpro-pub.gpg /usr/local/share/keyring/devkitpro-pub.gpg
+  cp devkitpro-pub.gpg /usr/local/share/keyring/devkitpro-pub.gpg || exit 1
 fi
 
 
@@ -23,13 +23,6 @@ fi
 apt-get update
 apt-get install devkitpro-pacman
 
-# installer comme ça:
-
-# /opt/devkitpro/pacman/bin/pacman -S 3dstools devkitARM devkitARM-gdb 3ds-dev devkit-env
 
 
-#(il y a un fichier devkitpro.pub.gpg dans /etc/apt/keyrings dont je ne sais pas dou il sort)
-#sudo cp /usr/local/share/keyring/devkitpro.pub.gpg /etc/apt/keyrings/temp
-#(into /etc/apt/keyring )sudo mv devkitpro.gpg devkitpro.gpg.bak
-#sudo mv temp devkitpro.gpg
-#
+
