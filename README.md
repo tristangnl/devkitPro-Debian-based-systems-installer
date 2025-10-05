@@ -13,4 +13,4 @@ The documentation to install devkitPro pacman on Linux: https://devkitpro.org/wi
 
 ## usages
 
-## after that
+## How to use pacman
