@@ -16,7 +16,12 @@ The documentation to install devkitPro pacman on Linux: https://devkitpro.org/wi
 
 The official devkitpro-pub.gpg key file: https://apt.devkitpro.org/devkitpro-pub.gpg
 
-## usages
+## Usages
+
+
+
+
+## How to use pacman
 
 See the official documentation here: https://devkitpro.org/wiki/devkitPro_pacman#Using_Pacman
 
@@ -26,5 +31,9 @@ For convenience, you can create an alias to use pacman as `dkp-pacman`: `alias d
 However, it is not recommended to add /opt/devkitpro/pacman/bin to your system PATH as this may cause issues.
 
 
-## How to use pacman
+## After
 
+Set environment variables in bashrc:
+```export DEVKITPRO=/opt/devkitpro
+export DEVKITARM=/opt/devkitpro/devkitARM
+export DEVKITPPC=/opt/devkitpro/devkitPPC```
