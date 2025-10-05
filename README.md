@@ -20,7 +20,12 @@ The documentation to install devkitPro pacman on Linux: https://devkitpro.org/wi
 The official devkitpro-pub.gpg key file: https://apt.devkitpro.org/devkitpro-pub.gpg
 
 ## Usages
+> [!NOTE]
+> please read the code before using it for your own peace of mind.
 
+Clone the repository `git clone https://github.com/tristangnl/devkitPro-Debian-based-systems-installer.git` or download the .zip file. 
+
+Then, navigate to the repository directory via the terminal and type `chmod +x installdkp.sh` followed by `./installdkp.sh` to execute it.
 
 
 
